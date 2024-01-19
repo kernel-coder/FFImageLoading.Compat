@@ -10,7 +10,7 @@ jobs:
   build:
     name: Build
     env:
-      NUPKG_MAJOR: 3.999
+      NUPKG_MAJOR: 1.0
       CODESIGN_PFX: ${{ secrets.CODESIGN_PFX }}
     runs-on: windows-latest
     steps:
